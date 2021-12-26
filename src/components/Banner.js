@@ -2,9 +2,13 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="banner-top container-fluid">
+    <div className="banner-top">
       <p>TechBlog.IO</p>
-      <img src="https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275__340.jpg" />
+      <img
+        className="img-top"
+        src={`${process.env.PUBLIC_URL}/assets/mobile-phone-g7839eb0c3_1920.jpg`}
+        alt="banner"
+      />
     </div>
   );
 };
