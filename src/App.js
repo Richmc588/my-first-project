@@ -1,5 +1,6 @@
 import React from "react";
 import MainContent from "./components/MainContent";
+import DisplayAllPosts from "./components/DisplayAllPosts";
 import "./styles/index.css";
 import NavBar from "./components/NavBar";
 import Banner from "./components/Banner";
@@ -31,6 +32,7 @@ const App = () => {
             />
           </div>
         </BackgroundContent>
+        <DisplayAllPosts />
       </div>
       <Footer />
     </div>

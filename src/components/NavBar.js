@@ -23,7 +23,7 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Social
+                Create +
               </a>
             </li>
             <li className="nav-item">
